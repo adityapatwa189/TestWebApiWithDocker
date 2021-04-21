@@ -22,4 +22,4 @@ WORKDIR /app
 
 COPY --from=build-env /app/out .
 
-ENTRYPOINT ["dotnet", "MyFirstWebApi.dll"]
+ENTRYPOINT ["dotnet", "TestWebApiWithDocker.dll"]
